@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ObligatoriskJavaScript", ".
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "62137"
+		SlnRelativePath = "..\..\..\OneDrive\Skrivebord\Sem. 3\Obligatorisk1\ObligatoriskJavaScript\"
 	EndProjectSection
 EndProject
 Global
