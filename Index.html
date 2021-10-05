@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>String Manipulation</title>
+    <style>
+        p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid {border-style: solid;}
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}
+        table {width: 30%;}
+        table, tr, td {border: 1px solid black;}
+        h2 {margin-left: 35px;}
+        input {margin-left: 15px}
+        input {margin-bottom: 5px;}
+        button {margin-bottom: 5px;}
+        button {margin-left: 2px}
+        </style>
+</head>
+<body>
+    <h2>String Manipulation</h2>
+    <div id="app">
+        <div class="jumbotron" border-style="solid">
+            <div class="row">
+                <input id="inputField" type="text" v-model="word"></input>
+                <button id="submitButton" class="button" type="button" @click="convertWord">Show It</button>
+            </div> 
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>{{words[0]}}</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>{{words[1]}}</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>{{words[2]}}</td>
+                </tr>
+            </table>
+            
+        </div>
+        
+    </div>
+    
+    
+
+
+    <script src="./js/Index.js"></script>
+    <script>
+        app.mount('#app');
+    </script>
+</body>
+</html>
